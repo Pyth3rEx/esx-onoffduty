@@ -12,7 +12,12 @@
 
 2) Import ``jobs.sql`` in your database
 
-3) Add this in your server.cfg :
+3) Make sure your folder is named ``esx_duty`` or change the following step with your folder name
+
+4) Add this in your server.cfg :
 ``start esx_duty``
+
+5) We recommend placing it right behind your :
+``start es_extended``
 
 lua
